@@ -16,11 +16,11 @@ while True:
         name = input("Enter Name: ")
         amount = int(input("Enter Amount: "))
         category = input("Enter Category: ")
-        now = datetime.now().strftime("%d-%m-%Y %H:%M")
-        expenses.append((name, amount, category, now))
+        date = datetime.now().strftime("%d-%m-%Y %H:%M")
+        expenses.append((name, amount, category, date))
         total += amount
         print("Expense added!")
-        print("Added on:", now)
+        print("Added on:", date)
         print("Current Total:", total)
 
     elif choice == "2":
