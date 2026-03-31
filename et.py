@@ -47,11 +47,7 @@ while True:
         else:
             print("\nYour Expenses:")
             for exp in expenses:
-                print("Name:", exp[0],
-                      "| Amount:", exp[1],
-                      "| Category:", exp[2],
-                      "| Date & Time:", exp[3])
-
+                print("Name:", exp[0], "| Amount:", exp[1], "| Category:", exp[2], "| Date & Time:", exp[3])
             print("Total Expense:", total)
 
     elif choice == "4":
