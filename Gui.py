@@ -66,10 +66,6 @@ tk.Label(root, text="Amount").pack()
 entry_amount = tk.Entry(root)
 entry_amount.pack()
 
-tk.Label(root, text="Category").pack()
-entry_category = tk.Entry(root)
-entry_category.pack()
-
 tk.Button(root, text="Add Expense", command=add_expense).pack(pady=5)
 tk.Button(root, text="Delete Selected", command=delete_expense).pack(pady=5)
 
